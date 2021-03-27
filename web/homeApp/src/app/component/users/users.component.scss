@@ -1,0 +1,17 @@
+ul{
+  list-style: none;
+  li{
+    background-color:aqua;
+    padding: 1rem;
+    color: #111;
+    border-radius: 5px;
+    margin-top: 3px;
+    font-size: 1.5rem;
+    span{
+      &.id {
+        margin-right: 5px;
+    }
+    }
+
+  }
+}

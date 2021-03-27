@@ -1,0 +1,10 @@
+<h1>Users Info</h1>
+
+<ul>
+  <li *ngFor="let user of users" (click)="getUser(user.id)">
+    <span class="id">{{user.id}}</span>
+    <span class="username">{{user.name}}</span>
+  </li>
+</ul>
+
+<user [userInfo]=user *ngIf="user"></user>
